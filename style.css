@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #822FAF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
+}
+.tudo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 237, 237);
+}
+
+div#app{
+    border-radius: 5px;
+    background-color: #EA698B;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bote{
+    
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 10px ;
+    color: #EA698B;
+}
